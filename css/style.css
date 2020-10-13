@@ -55,9 +55,6 @@ button {
     left: -150px;
 }
 
-
-
-
 .tegning {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -87,7 +84,7 @@ button {
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
 /**************************************************/
-
+@media (min-width: 576) {}
 
 /* END "sm-" 576px and up */
 
@@ -103,7 +100,7 @@ button {
 /**************************************************/
 /* // Large devices (desktops, 992px and up) */
 /**************************************************/
-@media (min-width: 992px) {
+@media (min-width: 992px) {}
 
     /* END "lg-" 992px and up */
 }

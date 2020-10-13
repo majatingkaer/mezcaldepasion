@@ -20,10 +20,6 @@ li {
     font-size: 1.1rem;
 }
 
-.footer_txt {
-    font-size: 0.9rem;
-}
-
 button {
     font-family: charcuterie deco;
     font-size: 1.3rem;
@@ -61,6 +57,11 @@ button {
     width: 300px;
 }
 
+
+
+.footer_txt {
+    font-size: 0.9rem;
+}
 
 .footer_grafik {
     height: 100px;

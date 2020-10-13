@@ -37,7 +37,7 @@ gsap.from(".tegning", {
         start: "top 90%",
         end: "top 70%",
         scrub: true,
-       markers: true,
+       //markers: true,
     }
 });
 

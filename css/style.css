@@ -30,10 +30,17 @@ button {
     font-size: 0.9rem;
 }
 
-.nav-item {
+.nav-item a {
     font-family: boucherie-flared, sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    font-size: 1.3rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #212529;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #DB6612;
 }
 
 .splash_gif {

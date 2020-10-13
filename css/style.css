@@ -1,0 +1,113 @@
+
+body {
+    margin: 0;
+}
+
+
+h1 {
+    font-family: charcuterie deco;
+    font-size: 6rem;
+}
+
+p,
+li {
+    font-family: boucherie flared;
+    font-size: 1.1rem;
+}
+
+.footer_txt {
+    font-size: 0.9rem;
+}
+
+button {
+    font-family: charcuterie deco;
+    font-size: 1.3rem;
+    background-color: #DB6612;
+}
+
+.kampagne_april {
+    font-size: 0.9rem;
+}
+
+.nav-item {
+    font-family: boucherie-flared, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.splash_gif {
+    width: 100%;
+    height: auto;
+}
+
+
+.splash_flasker {
+    height: 580px;
+    top: 0px;
+    left: -150px;
+}
+
+
+
+
+.tegning {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 300px;
+}
+
+
+.footer_grafik {
+    height: 100px;
+    width: 150px;
+}
+
+.footer_some img {
+    height: 50px;
+    widows: 50px;
+}
+
+
+
+
+
+/**************************************************/
+/* Small devices (landscape phones, 576px and up) */
+/**************************************************/
+
+
+/* END "sm-" 576px and up */
+
+
+/**************************************************/
+/* // Medium devices (tablets, 768px and up) */
+/**************************************************/
+@media (min-width: 768px) {}
+
+/* END "md-" 768px and up */
+
+
+/**************************************************/
+/* // Large devices (desktops, 992px and up) */
+/**************************************************/
+@media (min-width: 992px) {
+
+    /* END "lg-" 992px and up */
+}
+
+/**************************************************/
+/* // Extra large devices (large desktops, 1200px and up) */
+/**************************************************/
+@media (min-width: 1200px) {
+
+    /* END "xl-" 1200px and up */
+}
+
+/**************************************************/
+/* // Extra Extra large (XXL) devices (XXL screens, 1400px and up) */
+/**************************************************/
+@media (min-width: 1400px) {
+
+    /* END "xxl-" 1400px and up */
+}
+

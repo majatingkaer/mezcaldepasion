@@ -29,15 +29,15 @@ gsap.to(".splash_flasker", {
 
 
 gsap.from(".tegning", {
-    yPercent: 50,
-    stagger: .3,
+    yPercent: 30,
+    stagger: .1,
     ease: "none",
     scrollTrigger: {
         trigger: ".tegning",
         start: "top 90%",
-        end: "top 60%",
+        end: "top 70%",
         scrub: true,
-       //markers: true,
+       markers: true,
     }
 });
 

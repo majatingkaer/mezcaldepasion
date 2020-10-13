@@ -9,6 +9,11 @@ h1 {
     font-size: 6rem;
 }
 
+h2 {
+    font-family: charcuterie deco;
+    font-size: 1.8rem;
+}
+
 p,
 li {
     font-family: boucherie flared;

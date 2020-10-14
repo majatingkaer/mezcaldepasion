@@ -4,7 +4,7 @@ const sections = document.querySelectorAll("section");
 
 sections.forEach((section) => {
     const divs =
-          section.querySelectorAll("div");
+        section.querySelectorAll("div");
     gsap.from(divs, {
         opacity: 0,
         y: 100,
@@ -29,7 +29,7 @@ gsap.from(".tegning", {
         start: "top 90%",
         end: "top 50%",
         scrub: true,
-       markers: true,
+        //markers: true,
     }
 });
 
@@ -51,13 +51,3 @@ function scrollIndicator() {
     var scrolled = (winScroll / height) * 100;
     document.getElementById("Progress").style.width = scrolled + "%";
 }
-
-
-
-
-
-
-
-
-
-

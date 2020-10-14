@@ -10,17 +10,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous"> <!-- BOOTSTRAP CSS SKAL ALTID LIGGE FØRST OG DERMED LOADES FØRST -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/mzq3ihe.css">
-
-
-
     <title>Mezcal de Pasión</title>
-</head>
-
-<body>
 
     <section id="section_splash">
-        <img class="splash_gif position-relative" src="img/splash.png" alt="splash">
-        <img class="splash_flasker position-absolute" src="img/bottles.png" alt="flasker">
+        <div class="row row-cols-4">
+            <img class="splash_gif position-relative" src="img/splash.png" alt="splash">
+            <img class="splash_flasker position-absolute img-fluid" src="img/bottles.png" alt="flasker">
+        </div>
     </section>
 
 
@@ -52,13 +48,24 @@
         </div>
     </nav> <!-- NAVBAR END -->
 
+    <div class="progress_container">
+        <div class="progress_bar" id="Progress"></div>
+    </div>
+
+</head>
+
+<body>
+
+
+
+
     <main class="main_body">
         <div class="container">
 
 
             <section id="section_info" class="row mt-5 row-cols-sm-1 row-cols-lg-2 row-cols-xl-2 d-flex align-items-end">
                 <div class="info_grafik">
-                    <img class="mezcal_grafik" src="img/Mexico.png" height="auto" width="90%">
+                    <img class="mezcal_grafik img-fluid" src="img/Mexico.png">
                 </div>
                 <div class="info_tekst">
                     <h2>¿Porque besarlo? <br> Hvorfor kysse den? </h2>
@@ -88,22 +95,22 @@
             </section>
 
             <section id="section_mexico">
-                <div class="mexico_tegninger row mt-5 row-cols-sm-1 row-cols-lg-3 row-cols-xl-3 justify-content-between">
+                <div class="mexico_tegninger row mt-5 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 justify-content-between">
                     <div class="tegning d-flex align-self-center">
-                        <img class="tegning" src="img/tegning_1.png">
+                        <img class="tegning img-fluid" src="img/tegning_1.png">
                     </div>
                     <div class="tegning d-flex align-self-center">
-                        <img class="tegning" src="img/tegning_3.png">
+                        <img class="tegning img-fluid" src="img/tegning_3.png">
                     </div>
                     <div class="tegning d-flex align-self-center">
-                        <img class="tegning" src="img/tegning_4.png">
+                        <img class="tegning img-fluid" src="img/tegning_4.png">
                     </div>
                 </div>
             </section>
 
             <section id="section_opskrift" class="row pt-5 mt-5 pb-5 row-cols-sm-1 row-cols-lg-2 row-cols-xl-2d-flex align-items-end">
                 <div class="opskrift_grafik">
-                    <img class="opskrift_grafik" src="img/drink.png">
+                    <img class="opskrift_grafik img-fluid" src="img/drink.png">
                 </div>
                 <div class="opskrift_tekst">
                     <h2>Cóctel con mezcal <br> Drink med mezcal</h2>
@@ -122,17 +129,17 @@
                 </div>
             </section>
 
-            <section id="section_kampagne" class="row pt-5 pb-5 row-cols-sm-1 row-cols-lg-2 row-cols-xl-2 primary-800 d-flex align-items-end">
+            <section id="section_kampagne" class="row pt-5 pb-5 row-cols-sm-1 row-cols-lg-2 row-cols-xl-2 flex-row-reverse d-flex align-items-end">
+                <div class="kampagne_grafik">
+                    <img class="artista_grafik img-fluid" src="img/deartistaaartista.png">
+                </div>
                 <div class="kampagne_tekst">
                     <h2>DE ARTISTA A ARTISTA <br> FRA KUNSTNER TIL KUNSTNER </h2>
-                        <p>I forbindelse med vores kampagne, de artista a artista, kan du ved køb af en flaske Mezcal de Pasión støtte kunstnerfællesskabet CASA i Oaxaca med 10% af det samlede beløb. Så hjælper du som kunstner de mexicanske kunstnere i Oaxaca. </p>
+                    <p>I forbindelse med vores kampagne, de artista a artista, kan du ved køb af en flaske Mezcal de Pasión støtte kunstnerfællesskabet CASA i Oaxaca med 10% af det samlede beløb. Så hjælper du som kunstner de mexicanske kunstnere i Oaxaca. </p>
                     <p class="kampagne_april">Kampagnen varer hele april måned, 2021.</p>
                     <div class="d-flex align-items-end flex-column">
                         <button class="kampagne_knap text-white p-2">Køb din falske Mezcal de Pasión!</button>
                     </div>
-                </div>
-                <div class="kampagne_grafik">
-                    <img class="artista_grafik" src="img/deartistaaartista.png">
                 </div>
             </section>
 
@@ -141,22 +148,22 @@
         <section id="section_event">
             <div class="bg-dark text-white text-center pb-5">
                 <img class="event_grafik img-fluid mb-5" src="img/annonce__diadelosmuertos_aflang.jpg">
-                    <p>Den første weekend i november fejrer vi de dødes dag, Dia de los muertos, på refshaleøen i København og du er inviteret! <br> Kom med og få et indblik i den største kulturelle begivenhed i Mexico, hvor du kan smage vores mezcal og blive malet i ansigtet, som de gør i Mexico. <br> Mezcal-tasting og madservering er inklusiv i prisen, hvor ansigtsmaling tilbydes ekstra til eventet. </p>
-                    <button class="knap_event  text-white ">Tilmeld dig festlighederne!</button>
+                <p class="ml-3 mr-3">Den første weekend i november fejrer vi de dødes dag, Dia de los muertos, på refshaleøen i København og du er inviteret! <br> Kom med og få et indblik i den største kulturelle begivenhed i Mexico, hvor du kan smage vores mezcal og blive malet i ansigtet, som de gør i Mexico. <br> Mezcal-tasting og madservering er inklusiv i prisen, hvor ansigtsmaling tilbydes ekstra til eventet. </p>
+                <button class="knap_event  text-white ">Tilmeld dig festlighederne!</button>
             </div>
         </section>
 
 
         <div class="container-fluid">
 
-            <footer class="bg-light row row-cols-sm-1 row-cols-lg-3 row-cols-xl-3 pt-5 justify-content-between">
+            <footer class="bg-light row row-cols-3 row-cols-sm-3 row-cols-lg-3 pt-5 justify-content-between">
                 <p class="footer_txt align-self-center">Denne side er lavet i forbindelse med et skoleprojekt på multimediedesign-uddannelsen på KEA af Maja Tingkær.</p>
-                <img class="footer_grafik img-fluid justify-content-center" src="img/footer_tegning.png">
+                <img class="footer_grafik img-fluid" src="img/footer_tegning.png">
                 <div class="footer_some d-flex justify-content-center align-self-center">
                     <a href="https://www.facebook.com/Mezcal-de-Pasi%C3%B3n-114055530465832">
-                        <img class="facebookimg-fluid p-1" src="img/Facebook_icon_2013.svg.png">
+                        <img class="facebookimg-fluid p-1" src="img/Facebook_icon_2013.svg.png" height="50" width="50">
                     </a>
-                    <img class="instgram img-fluid" src="img/Instagram_icon.png">
+                    <img class="instgram img-fluid" src="img/Instagram_icon.png" height="50" width="50">
                 </div>
             </footer>
 

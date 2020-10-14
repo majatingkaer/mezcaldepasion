@@ -1,4 +1,4 @@
-
+/******************* GENERELT *******************/
 body {
     margin: 0;
 }
@@ -26,9 +26,14 @@ button {
     background-color: #DB6612;
 }
 
-.kampagne_april {
-    font-size: 0.9rem;
-}
+
+
+
+
+
+
+
+/******************* HEADER *******************/
 
 .nav-item a {
     font-family: boucherie-flared, sans-serif;
@@ -43,6 +48,20 @@ button {
     color: #DB6612;
 }
 
+
+.progress_container {
+    width: 100%;
+    position: fixed;
+    top: 63px;
+    z-index: 1;
+}
+
+.progress_bar {
+    background: #ea8b2d;
+    height: 3px;
+}
+
+
 .splash_gif {
     width: 100%;
     height: auto;
@@ -50,31 +69,35 @@ button {
 
 
 .splash_flasker {
-    height: 580px;
     top: 0px;
     left: -150px;
 }
 
+
+
+
+
+
+
+
+/******************* BODY *******************/
+
 .tegning {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    width: 300px;
 }
 
-
+.kampagne_april {
+    font-size: 0.9rem;
+}
 
 .footer_txt {
     font-size: 0.9rem;
 }
 
 .footer_grafik {
-    height: 100px;
-    width: 150px;
-}
-
-.footer_some img {
-    height: 50px;
-    widows: 50px;
+    width: auto;
+    height: auto;
 }
 
 
@@ -102,7 +125,7 @@ button {
 /**************************************************/
 @media (min-width: 992px) {}
 
-    /* END "lg-" 992px and up */
+/* END "lg-" 992px and up */
 }
 
 /**************************************************/
@@ -120,4 +143,3 @@ button {
 
     /* END "xxl-" 1400px and up */
 }
-

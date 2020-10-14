@@ -14,10 +14,23 @@ sections.forEach((section) => {
             trigger: section,
             start: "top center",
             end: "center 40%",
-            //markers: true,
             scrub: true,
         },
     });
+});
+
+
+gsap.from(".tegning", {
+    yPercent: 20,
+    stagger: .1,
+    ease: "none",
+    scrollTrigger: {
+        trigger: ".tegning",
+        start: "top 90%",
+        end: "top 50%",
+        scrub: true,
+       markers: true,
+    }
 });
 
 
@@ -27,19 +40,6 @@ gsap.to(".splash_flasker", {
     ease: "back.out(1.7)",
 });
 
-
-gsap.from(".tegning", {
-    yPercent: 30,
-    stagger: .1,
-    ease: "none",
-    scrollTrigger: {
-        trigger: ".tegning",
-        start: "top 90%",
-        end: "top 70%",
-        scrub: true,
-       //markers: true,
-    }
-});
 
 window.onscroll = function () {
     scrollIndicator()

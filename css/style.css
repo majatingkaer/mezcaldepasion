@@ -1,6 +1,7 @@
 /******************* GENERELT *******************/
 body {
     margin: 0;
+    background-color: whitesmoke;
 }
 
 
@@ -41,6 +42,11 @@ button {
     font-size: 1.3rem;
 }
 
+.navbar {
+    background-color: lightgrey;
+    height: 8vh;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #212529;
 }
@@ -60,7 +66,7 @@ button {
 .progress_container {
     width: 100%;
     position: fixed;
-    top: 63px;
+    top: 48px;
     z-index: 1;
 }
 
@@ -95,8 +101,16 @@ button {
     padding-bottom: 10vh;
 }
 
+.list-group-item {
+    background-color: whitesmoke;
+}
+
 .kampagne_april {
     font-size: 0.9rem;
+}
+
+footer {
+    background-color: lightgrey;
 }
 
 .footer_txt {
